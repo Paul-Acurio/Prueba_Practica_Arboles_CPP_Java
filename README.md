@@ -27,7 +27,7 @@ Al finalizar la práctica, se evidenciará la capacidad de:
 
 ## Funcionalidades del Sistema (Menú)
 
-[cite_start]El sistema cuenta con un menú interactivo de 14 opciones[cite: 10, 11]:
+El sistema cuenta con un menú interactivo de 14 opciones:
 1. Insertar estudiante
 2. Buscar estudiante por cédula
 3. Eliminar estudiante
