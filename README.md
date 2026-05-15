@@ -1,86 +1,67 @@
-# Recorridos de Árboles Binarios - Estructura de Datos
+# Prueba_Practica_Arboles_CPP_Java
 
 **Universidad Técnica de Ambato**  
 **Carrera:** Ingeniería de Software  
 **Asignatura:** Estructura de Datos  
 **Curso:** Tercero B  
-**Tema:** Recorridos de árboles binarios: Inorden, Preorden, Postorden y BFS
+**Tema:** Prueba_Practica_Arboles_CPP_Java
 
 ## Objetivo general
-Implementar y analizar los principales recorridos de árboles binarios utilizando C++ y Java, aplicando estructuras de datos dinámicas, recursividad y colas.
-
+Desarrollar un sistema académico robusto para la gestión de estudiantes utilizando un árbol binario de búsqueda (BST).El sistema debe ser implementado tanto en C++ (usando punteros) como en Java (usando referencias orientadas a objetos).
 ## Resultados de aprendizaje
-Al finalizar la práctica, el estudiante será capaz de:
+Al finalizar la práctica, se evidenciará la capacidad de:
 
-1. Explicar la diferencia entre recorridos DFS y BFS.
-2. Implementar recorridos Inorden, Preorden y Postorden con recursividad.
-3. Implementar BFS usando una cola.
-4. Comparar la implementación en C++ y Java.
-5. Aplicar recorridos de árboles a un caso real del proyecto final.
+1. Crear y gestionar repositorios en GitHub (`prueba-practica-arboles-cpp-java`).
+2. Implementar operaciones CRUD (Insertar, Buscar, Eliminar) en árboles binarios de búsqueda.
+3. Desarrollar algoritmos de recorrido en profundidad (Inorden, Preorden, Postorden) y en anchura (BFS por niveles usando colas).
+4. Aplicar recursividad para analítica de datos en árboles (cálculo de altura, conteo de nodos, búsqueda de extremos).
+5. Validar datos de entrada y manejar excepciones para evitar desbordamientos de memoria o fallos del programa.
 
 ## Contenido
 
 | Carpeta | Descripción |
 |---|---|
-| `docs/` | Guía práctica para la clase | Capturas | Tarea 2.2 Recorrido de Arboles Binarios | 
+| `docs/` | Capturas | Prueba_Practica_Arboles_CPP_Java.pdf | 
 | `src/cpp/` | .vscode | build | main.cpp | Implementacion completa en C++ |
 | `src/java/` | .idea | out | main.java | implementacion completa en Java |
-| `exercises/` | Ejercicios |
-| `moodle/` | Banco de preguntas tipo Moodle |
-| `assets/` | apuntesC++ | java | Recursos de apoyo 
 
-## Reglas de recorrido
+## Funcionalidades del Sistema (Menú)
 
-| Recorrido | Orden |
-|---|---|
-| Inorden | Izquierda → Raíz → Derecha |
-| Preorden | Raíz → Izquierda → Derecha |
-| Postorden | Izquierda → Derecha → Raíz |
-| BFS | Nivel por nivel usando cola |
+[cite_start]El sistema cuenta con un menú interactivo de 14 opciones[cite: 10, 11]:
+1. Insertar estudiante
+2. Buscar estudiante por cédula
+3. Eliminar estudiante
+4. Recorrido Inorden
+5. Recorrido Preorden
+6. Recorrido Postorden
+7. Recorrido por niveles BFS
+8. Contar estudiantes
+9. Calcular altura del árbol
+10. Mostrar estudiante con mayor nota
+11. Mostrar estudiante con menor nota
+12. Mostrar estudiantes aprobados
+13. Mostrar estudiantes reprobados
+14. Salir
 
-## Ejecución en C++
+## Instrucciones de Compilación y Ejecución
 
-```bash
+### Ejecución en C++
+bash
 cd src/cpp
-g++ main.cpp -o recorridos
-./recorridos
-```
+g++ main.cpp -o sistema_academico
+./sistema_academico
 
-## Ejecución en Java
-
-```bash
+### Ejecución en Java
 cd src/java
 javac Main.java
 java Main
-```
 
-## Actividad  sugerida:
-
-1. Clonar el repositorio.
-2. Ejecutar el código base.
-3. Agregar mínimo 5 nodos nuevos.
-4. Mostrar los cuatro recorridos.
-5. Modificar el caso de aplicación al proyecto final.
-6. Subir evidencias al repositorio GitHub del grupo.
-
-## Entregables
-
-- Captura de ejecución en consola.
-- Código fuente comentado.
-- README del grupo.
-- Explicación del caso real.
-- Link del repositorio GitHub.
-
-## Rúbrica breve sobre 10 puntos
-
-| Criterio | Puntaje |
-|---|---:|
-| Implementación correcta de recorridos | 3 |
-| Uso correcto de recursividad y cola | 2 |
-| Código comentado y organizado | 1.5 |
-| Aplicación al proyecto final | 2 |
-| Uso de GitHub e IA documentada | 1.5 |
+## Entregables Cumplidos
+Repositorio creado con el nombreprueba-practica-arboles-cpp-java.\
+Implementación en C++ y Java.
+Mínimo 5 compromisos realizados durante el desarrollo.
+Código fuente comentado y estructurado aplicando buenas prácticas.
+Capturas de ejecución (Ver carpeta evidencias/).  
 
 ## Autor
-
-- Acurio Lopez Paul Medardo
+Acurio Lopez Paul Medardo
